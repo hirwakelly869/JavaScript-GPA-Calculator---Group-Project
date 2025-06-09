@@ -23,5 +23,7 @@ $("form").onsubmit = e => {
 };
 
 $("clear").onclick = () => confirm("Clear all?") && (d.length = 0, localStorage.setItem("gpa", "[]"), r());
-onkeydown = e => e.key === "s" && console.log(d);
+document.addEventListener("keydown", e => {
+  if (e.key === "s" && !e.target.matches("input")) console.log(d);
+});
 r();
