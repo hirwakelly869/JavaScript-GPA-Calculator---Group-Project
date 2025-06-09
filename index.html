@@ -2,21 +2,39 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>GPA Calculator</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <div class="container">
-    <h1>GPA Calculator</h1>
-    <form id="form">
-      <input id="name" type="text" placeholder="Assignment Name" required />
-      <input id="grade" type="number" placeholder="Grade (0-5)" min="0" max="5" step="0.1" required />
-      <button type="submit">Add</button>
-    </form>
-    <h2>Assignments</h2>
-    <ul id="list"></ul>
-    <h2>GPA: <span id="gpa">0.00</span></h2>
+    <header>
+      <h1>GPA Calculator</h1>
+    </header>
+    <main>
+      <section id="add-assignment-section">
+        <form id="form">
+          <div>
+            <label for="name">Assignment Name:</label>
+            <input id="name" type="text" placeholder="Assignment Name" required />
+          </div>
+          <div>
+            <label for="grade">Grade (0-5):</label>
+            <input id="grade" type="number" placeholder="Grade (0-5)" min="0" max="5" step="0.1" required />
+          </div>
+          <button type="submit">Add</button>
+        </form>
+      </section>
+
+      <section id="assignments-list-section">
+        <h2>Assignments</h2>
+        <ul id="list"></ul>
+      </section>
+
+      <section id="gpa-summary-section">
+        <h2>GPA: <span id="gpa">0.00</span></h2>
+      </section>
+    </main>
   </div>
   <script src="script.js"></script>
 </body>
