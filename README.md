@@ -7,7 +7,6 @@ A simple GPA calculator built with pure JavaScript, HTML, and CSS. Allows users 
 - Add assignments (name + grade)
 - Real-time GPA calculation
 - Display all assignments
-- Press "S" to log all data in console
 - Optional: Data persistence with localStorage
 
 ## Group Members
