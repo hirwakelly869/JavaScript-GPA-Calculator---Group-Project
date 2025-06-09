@@ -20,6 +20,14 @@ ul { list-style: none; padding: 0; }
 li {
   background: #eee; margin: 0.5rem 0;
   padding: 0.5rem; border-radius: 5px;
+  display: flex; justify-content: space-between; align-items: center;
+}
+
+li button {
+  background: #dc3545; color: white; border: none;
+  padding: 0.3rem 0.6rem; border-radius: 3px;
+  font-size: 0.8rem; cursor: pointer; width: auto;
+  margin: 0;
 }
 
 #gpa { font-weight: bold; }
