@@ -16,11 +16,12 @@ A simple GPA calculator built with pure JavaScript, HTML, and CSS. Allows users 
 
 ## Group Members
 
-- Member 1 (HTML/CSS Wizard)
-- Member 2 (Core JS Logic)
-- Member 3 (DOM & Events Lead)
-- Member 4 (Bonus Features)
-- Member 5 (GitHub Setup & Coordination)
+- Elvis SHIMWA (HTML/CSS Wizard)
+- Kelly Hirwa (Core JS Logic)
+- Clarence Chomba (DOM & Events Lead)
+- Amelie Jessica Gatego (Bonus Features)
+- David Ngarambe (GitHub Setup)
+- Hamzat Victor (Documentation)
 
 ---
 
